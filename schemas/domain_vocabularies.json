@@ -1,0 +1,79 @@
+{
+    "incident_types": [
+      "collision",
+      "collision_wall",
+      "theft",
+      "fire",
+      "flood",
+      "vandalism",
+      "natural_disaster",
+      "animal_collision",
+      "unknown"
+    ],
+    "road_types": [
+        "highway",
+        "urban",
+        "rural",
+        "parking_lot",
+        "unknown"
+      ],
+      "damage_areas": [
+        "front_bumper",
+        "rear_bumper",
+        "left_door",
+        "right_door",
+        "headlamp",
+        "taillight",
+        "windshield",
+        "side_mirror",
+        "underbody",
+        "roof",
+        "multiple",
+        "unknown"
+      ] ,
+      
+        "damage_severity": [
+          "minor",
+          "moderate",
+          "severe",
+          "total_loss",
+          "unknown"
+        ],
+        "weather_conditions": [
+            "clear",
+            "rain",
+            "fog",
+            "snow",
+            "storm",
+            "unknown"
+          ],
+          "visibility": [
+            "good",
+            "moderate",
+            "poor",
+            "unknown"
+          ],
+          "speed_estimate": [
+            "0-20",
+            "20-40",
+            "40-60",
+            "60+",
+            "unknown"
+          ],
+          
+            "policy_types": [
+              "third_party",
+              "comprehensive",
+              "own_damage",
+              "unknown"
+            ],
+
+            "usage_type": [
+                "personal",
+                "commercial",
+                "ride_sharing",
+                "unknown"
+              ],
+              "boolean_values": [true, false, null]  
+  }
+

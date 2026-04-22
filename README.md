@@ -16,7 +16,7 @@ Domain-aware question generation
 Deterministic and interpretable system
 
 
-** Core Modules**
+**Core Modules**
 Generator – creates question bank
 Validator – cleans and deduplicates
 Retriever – selects best question
